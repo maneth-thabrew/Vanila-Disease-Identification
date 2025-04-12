@@ -1,0 +1,17 @@
+olivia@gmail.com
+
+111222333
+
+shell 1
+
+1. cd forntend
+2. npm start
+
+shell 2
+
+1. cd ml-api
+2. python -m uvicorn main:app --reload
+
+shell 3
+1. cd backend
+2. nodemon
