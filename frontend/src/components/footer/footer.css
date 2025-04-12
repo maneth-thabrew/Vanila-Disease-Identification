@@ -1,0 +1,24 @@
+
+.footer {
+    color: #19162c;
+    background-color: #78e08f;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 25px;
+    z-index: 3;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    top: -20px;
+  }

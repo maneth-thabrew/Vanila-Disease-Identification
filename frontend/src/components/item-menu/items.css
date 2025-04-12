@@ -1,0 +1,36 @@
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .grid-cell {
+    text-align: center;
+  }
+  
+  .icon-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 100px;
+    transition: transform 0.2s ease-in-out;
+    color: #182e1d;
+  }
+  
+  .icon-button:hover {
+    transform: scale(1.4);
+  }
+  
+  .icon-text {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #182e1d;
+  }
+  
+  .icon-button svg {
+    font-size: 36px;
+  }

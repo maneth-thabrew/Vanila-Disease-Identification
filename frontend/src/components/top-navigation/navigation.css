@@ -1,0 +1,20 @@
+.data  {
+    margin-right: 20px;
+}
+.weather-token {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.token-img {
+    background-color: #78e08f;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.weather-token img {
+    margin-right: 10px;
+}
